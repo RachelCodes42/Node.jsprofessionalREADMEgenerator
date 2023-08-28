@@ -4,22 +4,27 @@ const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
-  {
-    type: 'input',
-    name: 'projectTitle',
-    message: 'Enter your project title:',
-  },
-  {
-    type: 'input',
-    name: 'description',
-    message: 'Enter project description:',
-  },
-  // Add more prompts for other sections...
+    {
+        type: 'input',
+        name: 'projectTitle',
+        message: 'Enter your project title:',
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Enter project description:',
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Enter your instructions for installation:',
+    },
+    // Add more prompts for other sections...
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  const readmeContent = `
+    const readmeContent = `
 # ${data.projectTitle}
 
 ## Description
@@ -35,6 +40,7 @@ ${data.description}
 
 ## Installation
 <!-- Add installation instructions here -->
+${data.installation}
 
 ## Usage
 <!-- Add usage information here -->
@@ -53,23 +59,23 @@ GitHub: [Your GitHub Profile](https://github.com/yourusername)
 Email: your.email@example.com
   `;
 
-  // Write the content to README.md file
-  fs.writeFileSync(fileName, readmeContent, (err) => {
-    if (err) throw err;
-    console.log(`${fileName} created successfully.`);
-  });
+    // Write the content to README.md file
+    fs.writeFileSync(fileName, readmeContent, (err) => {
+        if (err) throw err;
+        console.log(`${fileName} created successfully.`);
+    });
 }
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer
-    .prompt(questions)
-    .then((answers) => {
-      writeToFile('README.md', answers);
-    })
-    .catch((error) => {
-      console.error('Error:', error);
-    });
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+            writeToFile('README.md', answers);
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
 }
 
 // Function call to initialize app
