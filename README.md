@@ -18,15 +18,19 @@ example
 
 ## Usage
 <!-- Add usage information here -->
+example
 
 ## License
 <!-- Add license badge and explanation here -->
+example
 
 ## Contributing
 <!-- Add contribution guidelines here -->
+example
 
 ## Tests
 <!-- Add test instructions here -->
+example
 
 ## Questions
 GitHub: [Your GitHub Profile](https://github.com/yourusername)
