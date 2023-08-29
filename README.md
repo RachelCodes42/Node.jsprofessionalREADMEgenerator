@@ -22,7 +22,7 @@ example
 
 ## License
 <!-- Add license badge and explanation here -->
-example
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Contributing
 <!-- Add contribution guidelines here -->
@@ -33,6 +33,6 @@ example
 example
 
 ## Questions
-GitHub: [Your GitHub Profile](https://github.com/yourusername)
-Email: your.email@example.com
+GitHub: [Your GitHub Profile](https://github.com/example)
+Email: example
   
