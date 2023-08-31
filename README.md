@@ -1,8 +1,8 @@
 
-# example
+# README Generator
 
 ## Description
-example
+This is used to populate a README for the user.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,11 +14,11 @@ example
 
 ## Installation
 <!-- Add installation instructions here -->
-example
+Instructions for installation are included in this demo
 
 ## Usage
 <!-- Add usage information here -->
-example
+Creation of README generator for simple use.
 
 ## License
 <!-- Add license badge and explanation here -->
@@ -26,13 +26,13 @@ example
 
 ## Contributing
 <!-- Add contribution guidelines here -->
-example
+Inquirer npm
 
 ## Tests
 <!-- Add test instructions here -->
-example
+N/A
 
 ## Questions
-GitHub: [Your GitHub Profile](https://github.com/example)
-Email: example
+GitHub: [Your GitHub Profile](https://github.com/RachelCodes42)
+Email: hochman.rachel@gmail.com
   
