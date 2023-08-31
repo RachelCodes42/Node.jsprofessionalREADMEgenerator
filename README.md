@@ -1,8 +1,8 @@
 
-# README Generator
+# This is an example demonstration.
 
 ## Description
-This is used to populate a README for the user.
+This is a README generator used for simple production of a README
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,11 +14,11 @@ This is used to populate a README for the user.
 
 ## Installation
 <!-- Add installation instructions here -->
-Instructions for installation are included in this demo
+Inquirer NPM and CLI terminal.
 
 ## Usage
 <!-- Add usage information here -->
-Creation of README generator for simple use.
+Usage includes README generator that is dynamic.
 
 ## License
 <!-- Add license badge and explanation here -->
@@ -26,7 +26,7 @@ Creation of README generator for simple use.
 
 ## Contributing
 <!-- Add contribution guidelines here -->
-Inquirer npm
+Inquirer NPM
 
 ## Tests
 <!-- Add test instructions here -->
