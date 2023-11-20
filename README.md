@@ -1,32 +1,18 @@
 
-# This is an example demonstration.
+# React Portfolio
 
 ## Description
-This is a README generator used for simple production of a README
+Welcome to the professional React portfolio of Rachel Hochman. This portfolio showcases my expertise in building single-page applications and provides you with a comprehensive overview of my work samples deployed through Netlify.
 
 ## Table of Contents
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Installation
-<!-- Add installation instructions here -->
-Inquirer NPM and CLI terminal.
-
-## Usage
-<!-- Add usage information here -->
-Usage includes README generator that is dynamic.
-
 ## License
 <!-- Add license badge and explanation here -->
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-
-## Contributing
-<!-- Add contribution guidelines here -->
-Inquirer NPM
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http://opensource.org/licenses/MIT)
 
 ## Tests
 <!-- Add test instructions here -->
@@ -34,5 +20,5 @@ N/A
 
 ## Questions
 GitHub: [Your GitHub Profile](https://github.com/RachelCodes42)
-Email: hochman.rachel@gmail.com
+Email: hochman.rachel@icloud.com
   
